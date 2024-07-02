@@ -41,7 +41,7 @@ struct ContentView: View {
     @State private var timer: Timer?
     @State private var elapsedTime: Int = 0
     
-    let eggTimes: [String: Int] = ["soft_egg": 3, "medium_egg": 4, "hard_egg": 5]
+    let eggTimes: [String: Int] = ["soft_egg": 300, "medium_egg": 480, "hard_egg": 720]
     
     var body: some View {
             VStack {

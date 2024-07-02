@@ -13,7 +13,7 @@ class ViewController: UIViewController {
    
     @IBOutlet weak var counterView: UIProgressView!
     @IBOutlet weak var eggLabel: UILabel!
-    var eggTimes: [String: Int] = ["Soft": 3, "Medium": 4, "Hard": 5]
+    var eggTimes: [String: Int] = ["Soft": 300, "Medium": 480, "Hard": 720]
     var counter: Int = 0
     var originalCounter: Int = 0
     var timer: Timer?
